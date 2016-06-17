@@ -7,6 +7,7 @@ package com.wangdesen.dp.strategy;
  * */
 public interface Strategy {
 	
+	//操作方法
 	public void operate();
 
 }
