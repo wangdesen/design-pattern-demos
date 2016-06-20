@@ -1,4 +1,7 @@
-package com.wangdesen.dp.observer;
+package com.wangdesen.dp;
+
+import com.wangdesen.dp.observer.observer.CurrentConditionsDisplay;
+import com.wangdesen.dp.observer.subject.WeatherData;
 
 
 /**
@@ -6,7 +9,7 @@ package com.wangdesen.dp.observer;
  * 
  * @author wangdesen
  * */
-public class WeatherStation {
+public class ObserverTest {
 
 	public static void main(String[] args) {
 		

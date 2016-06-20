@@ -1,4 +1,6 @@
-package com.wangdesen.dp.observer;
+package com.wangdesen.dp.observer.subject;
+
+import com.wangdesen.dp.observer.observer.Observer;
 
 /**
  * 定义主题类--接口
