@@ -1,4 +1,6 @@
-package com.wangdesen.dp.state;
+package com.wangdesen.dp;
+
+import com.wangdesen.dp.state.GumballMachine;
 
 /**
  * 糖果机测试
@@ -6,7 +8,7 @@ package com.wangdesen.dp.state;
  * @author wangdesen
  * @version 2.0
  * */
-public class GumballMachineTestDrive {
+public class StateTest {
 
 	public static void main(String[] args) {
 		GumballMachine gumballMachine = new GumballMachine(5);
