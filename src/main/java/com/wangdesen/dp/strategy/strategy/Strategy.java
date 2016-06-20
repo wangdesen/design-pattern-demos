@@ -1,4 +1,4 @@
-package com.wangdesen.dp.strategy;
+package com.wangdesen.dp.strategy.strategy;
 
 /**
  * 策略接口

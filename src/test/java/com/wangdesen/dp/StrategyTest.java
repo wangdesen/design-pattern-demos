@@ -1,11 +1,16 @@
-package com.wangdesen.dp.strategy;
+package com.wangdesen.dp;
+
+import com.wangdesen.dp.strategy.context.Context;
+import com.wangdesen.dp.strategy.strategy.ConcreteStrategy1;
+import com.wangdesen.dp.strategy.strategy.ConcreteStrategy2;
 
 /**
  * 策略模式测试类
  * 
  * @author wangdesen
+ * @version 1.0
  * */
-public class Test {
+public class StrategyTest {
 
 	public static void main(String[] args) {
 		
@@ -14,10 +19,8 @@ public class Test {
 		context = new Context(new ConcreteStrategy1());
 		context.operate();
 		System.out.println("\n");
-		
 		context.setStrategy(new ConcreteStrategy2());
 		context.operate();
-		System.out.println("\n");
 
 	}
 

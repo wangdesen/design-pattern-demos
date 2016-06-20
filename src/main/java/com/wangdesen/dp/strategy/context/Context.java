@@ -1,4 +1,6 @@
-package com.wangdesen.dp.strategy;
+package com.wangdesen.dp.strategy.context;
+
+import com.wangdesen.dp.strategy.strategy.Strategy;
 
 /**
  * 环境类
