@@ -1,4 +1,4 @@
-package com.wangdesen.dp.state;
+package com.wangdesen.dp.state.state;
 
 /**
  * 状态类接口

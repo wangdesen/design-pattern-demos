@@ -1,4 +1,11 @@
-package com.wangdesen.dp.state;
+package com.wangdesen.dp.state.service;
+
+import com.wangdesen.dp.state.state.HasQuarterState;
+import com.wangdesen.dp.state.state.NoQuarterState;
+import com.wangdesen.dp.state.state.SoldOutState;
+import com.wangdesen.dp.state.state.SoldState;
+import com.wangdesen.dp.state.state.State;
+import com.wangdesen.dp.state.state.WinnerState;
 
 /**
  * 糖果机

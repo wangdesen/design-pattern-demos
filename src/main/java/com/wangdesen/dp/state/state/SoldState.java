@@ -1,4 +1,6 @@
-package com.wangdesen.dp.state;
+package com.wangdesen.dp.state.state;
+
+import com.wangdesen.dp.state.service.GumballMachine;
 
 /**
  * 售出糖果状态
