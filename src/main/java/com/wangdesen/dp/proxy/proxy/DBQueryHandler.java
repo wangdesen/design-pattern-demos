@@ -1,8 +1,11 @@
-package com.wangdesen.dp.proxy;
+package com.wangdesen.dp.proxy.proxy;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
+
+import com.wangdesen.dp.proxy.theme.DBQuery;
+import com.wangdesen.dp.proxy.theme.IDBQuery;
 
 /**
  * 动态代理--Java反射机制

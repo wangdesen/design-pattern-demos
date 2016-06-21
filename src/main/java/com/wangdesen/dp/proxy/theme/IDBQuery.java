@@ -1,4 +1,4 @@
-package com.wangdesen.dp.proxy;
+package com.wangdesen.dp.proxy.theme;
 
 /**
  * 主题接口，定义代理类和真实类需要对外提供的服务

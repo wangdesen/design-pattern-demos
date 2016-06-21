@@ -1,4 +1,7 @@
-package com.wangdesen.dp.proxy;
+package com.wangdesen.dp.proxy.proxy;
+
+import com.wangdesen.dp.proxy.theme.DBQuery;
+import com.wangdesen.dp.proxy.theme.IDBQuery;
 
 /**
  * IDBQuery的代理类
