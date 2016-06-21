@@ -4,6 +4,7 @@ package com.wangdesen.dp.proxy;
  * 真实主题
  * 
  * @author wangdesen
+ * @version 1.0
  * */
 public class DBQuery implements IDBQuery {
 
@@ -14,9 +15,9 @@ public class DBQuery implements IDBQuery {
 			ex.printStackTrace();
 		}
 	}
-
+	
 	public String request() {
-		return "request string";
+		return "response the request!";
 	}
 
 }
