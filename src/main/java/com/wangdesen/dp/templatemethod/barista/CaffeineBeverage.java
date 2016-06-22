@@ -9,7 +9,7 @@ package com.wangdesen.dp.templatemethod.barista;
 public abstract class CaffeineBeverage {
   
 	//冲调步骤
-	final void prepareRecipe() {
+	public final void prepareRecipe() {
 		boilWater();//开水
 		brew();//冲入
 		pourInCup();//倒入杯子

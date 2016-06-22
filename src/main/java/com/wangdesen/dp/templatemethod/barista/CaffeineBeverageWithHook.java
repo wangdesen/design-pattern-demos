@@ -8,7 +8,7 @@ package com.wangdesen.dp.templatemethod.barista;
  * */
 public abstract class CaffeineBeverageWithHook {
  
-	void prepareRecipe() {
+	public void prepareRecipe() {
 		boilWater();
 		brew();
 		pourInCup();
