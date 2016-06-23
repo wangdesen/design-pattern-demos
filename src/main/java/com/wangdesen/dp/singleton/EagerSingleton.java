@@ -1,38 +1,26 @@
 package com.wangdesen.dp.singleton;
 
 /**
- * 非同步的单例模式----饿汉式
+ * 饿汉式
+ * 
+ * 第一次加载类到内存时，就会被初始化，所以创建实例本身线程安全
+ * 
+ * 优点：线程安全
+ * 
+ * 缺点：不是懒加载，在某些场景无法使用；
+ * 比如 Singleton 实例的创建是依赖参数或者配置文件的
  * 
  * @author wangdesen
  * */
-public class EagerSingleton implements Runnable{
+public class EagerSingleton{
 
 	private EagerSingleton() {
 		System.out.println("Singleton is create");
 	}
 
-	private static EagerSingleton instance = new EagerSingleton();
+	private static final EagerSingleton instance = new EagerSingleton();
 
 	public static EagerSingleton getInstance() {
 		return instance;
-	}
-
-	public static void createString() {
-		System.out.println("createString in Singleton");
-	}
-	
-	@Override
-	public void run() {
-		long beginTime = System.currentTimeMillis();
-		for (int i = 0; i < 1000000; i++) {
-			EagerSingleton.getInstance();
-		}
-		System.out.println(System.currentTimeMillis() - beginTime);
-	}
-
-	public static void main(String[] args) {
-		for (int i = 0; i < 5; i++) {
-			new Thread(new EagerSingleton()).start();
-		}
 	}
 }
