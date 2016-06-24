@@ -6,18 +6,21 @@ import java.util.Map;
 /**
  * LazySington Lasted Version
  * 
+ * 单例容器
+ * 
  * @author wangdesen
  * */
 public class ThreeSingleton {
 	
-	private final static String DEFAULT_PREKEY = "cache";//为后面使用的 key 定义一个前缀
-	private static Map<String,ThreeSingleton>map = new HashMap<String,ThreeSingleton>();//定义缓存实例的容器
-	private static int number = 1;//定义初始化实例数目为 1
+	//为后面使用的 key 定义一个前缀
+	private final static String DEFAULT_PREKEY = "cache";
+	//定义缓存实例的容器
+	private static Map<String,ThreeSingleton>map = new HashMap<String,ThreeSingleton>();
+	//定义初始化实例数目为 1
+	private static int number = 1;
 	private final static int NUM_MAX = 3;
 	 
-	private ThreeSingleton(){
-	 
-	}
+	private ThreeSingleton(){}
 	
 	public static synchronized ThreeSingleton getInstance(){
 		 //通过缓存理念及方式控制数量
