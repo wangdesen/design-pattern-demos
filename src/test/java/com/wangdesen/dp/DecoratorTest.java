@@ -1,4 +1,4 @@
-package com.wangdesen.dp.decorator.starbuzz;
+package com.wangdesen.dp;
 
 import com.wangdesen.dp.decorator.starbuzz.beverage.Beverage;
 import com.wangdesen.dp.decorator.starbuzz.beverage.DarkRoast;
@@ -13,7 +13,7 @@ import com.wangdesen.dp.decorator.starbuzz.condiment.Whip;
  * 
  * @author wangdesen
  * */
-public class StarbuzzCoffee {
+public class DecoratorTest {
  
 	public static void main(String args[]) {
 		
