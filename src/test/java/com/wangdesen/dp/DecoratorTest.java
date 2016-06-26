@@ -1,5 +1,13 @@
 package com.wangdesen.dp;
 
+import java.io.BufferedInputStream;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+
+import org.junit.Test;
+
+import com.wangdesen.dp.decorator.io.LowerCaseInputStream;
 import com.wangdesen.dp.decorator.starbuzz.beverage.Beverage;
 import com.wangdesen.dp.decorator.starbuzz.beverage.DarkRoast;
 import com.wangdesen.dp.decorator.starbuzz.beverage.Espresso;
@@ -15,8 +23,9 @@ import com.wangdesen.dp.decorator.starbuzz.condiment.Whip;
  * */
 public class DecoratorTest {
  
-	public static void main(String args[]) {
-		
+	//测试Stabuzz咖啡店
+	@Test
+	public void StabuzzTest(){
 		//浓咖啡，什么也不加
 		Beverage beverage = new Espresso();
 		System.out.println(beverage.getDescription() 
@@ -37,5 +46,26 @@ public class DecoratorTest {
 		beverage3 = new Whip(beverage3);
 		System.out.println(beverage3.getDescription() 
 				+ " $" + beverage3.cost());
+	}
+	
+	//测试包装后的Io类
+	@Test
+	public void IoTest(){
+		int c;
+
+		try {
+			InputStream in = 
+				new LowerCaseInputStream(
+					new BufferedInputStream(
+						new FileInputStream("test.txt")));
+
+			while((c = in.read()) >= 0) {
+				System.out.print((char)c);
+			}
+
+			in.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 }
