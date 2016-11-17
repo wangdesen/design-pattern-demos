@@ -15,3 +15,5 @@
 - 要求懒加载的情况下，建议使用静态内部类(StaticSingleton)
 
 - 涉及反序列化情况，使用枚举方法(EasySingleton)
+
+###UML类图
