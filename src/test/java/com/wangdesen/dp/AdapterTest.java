@@ -1,7 +1,8 @@
 package com.wangdesen.dp;
 
 import com.wangdesen.dp.adapter.Adaptee;
-import com.wangdesen.dp.adapter.Adapter;
+import com.wangdesen.dp.adapter.ClassAdapter;
+import com.wangdesen.dp.adapter.ObjectAdapter;
 import com.wangdesen.dp.adapter.Target;
 
 /**
@@ -11,12 +12,14 @@ public class AdapterTest {
 
 	public static void main(String[] args) {
 		
-		//适配者
+		//对象适配器模式
 		Adaptee adaptee = new Adaptee();
-		//目标
-		Target target = new Adapter(adaptee);
-		//目标相应
-		target.request();
+		Target objectTarget = new ObjectAdapter(adaptee);
+		objectTarget.request();
+		
+		//类适配器模式
+		Target classTarget = new ClassAdapter();
+		classTarget.request();
 		
 	}
 
