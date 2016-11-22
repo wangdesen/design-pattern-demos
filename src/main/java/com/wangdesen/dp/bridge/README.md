@@ -4,6 +4,14 @@
 
 #### 桥接模式
 将抽象部分与他的实现部分分离，使他们都可以独立的变化。
+
+#### UML类图
+![UML ICON](https://design-patterns.readthedocs.io/zh_CN/latest/_images/Bridge.jpg)
+
+#### 时序图
+![TIME ICON](https://design-patterns.readthedocs.io/zh_CN/latest/_images/seq_Bridge.jpg)
+
+#### 角色定义
 - Abstraction：抽象类——汽车
 - RefinedAbstraction：扩充抽象类——大巴&吉普
 - Implementor：实现类接口——引擎
