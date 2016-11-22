@@ -1,5 +1,7 @@
 # design-pattern-demos
 
+![dp ICON](http://cdn.crunchify.com/wp-content/uploads/2013/06/Java-Design-Patterns.png)
+
 ### 经典的设计模式的Java demos
 
 - 2016年06月13日:代理模式初始化
