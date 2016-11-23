@@ -1,6 +1,7 @@
 package com.wangdesen.dp.decorator.starbuzz.beverage;
 
 /**
+ * ConcreteComponent
  * 无咖啡因类咖啡
  * 
  * @author wangdesen

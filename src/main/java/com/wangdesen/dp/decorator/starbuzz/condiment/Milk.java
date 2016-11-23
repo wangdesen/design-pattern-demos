@@ -3,6 +3,7 @@ package com.wangdesen.dp.decorator.starbuzz.condiment;
 import com.wangdesen.dp.decorator.starbuzz.beverage.Beverage;
 
 /**
+ * ConcreteDecoratoe
  * 牛奶调料
  * 
  * @author wangdesen
@@ -14,7 +15,7 @@ public class Milk extends CondimentDecorator {
 	public Milk(Beverage beverage) {
 		this.beverage = beverage;
 	}
-
+	
 	public String getDescription() {
 		return beverage.getDescription() + ", Milk";
 	}

@@ -3,6 +3,7 @@ package com.wangdesen.dp.decorator.starbuzz.condiment;
 import com.wangdesen.dp.decorator.starbuzz.beverage.Beverage;
 
 /**
+ * ConcreteDecorator
  * 奶油调料
  * 
  * @author wangdesen
