@@ -1,13 +1,12 @@
-package com.wangdesen.dp.proxy.proxy;
+package com.wangdesen.dp.proxy;
 
-import com.wangdesen.dp.proxy.theme.DBQuery;
-import com.wangdesen.dp.proxy.theme.IDBQuery;
 
 /**
+ * Proxy(代理主题角色)
+ * 
  * IDBQuery的代理类
  * 
  * @author wangdesen
- * @version 1.0
  * */
 public class DBQueryProxy implements IDBQuery {
 

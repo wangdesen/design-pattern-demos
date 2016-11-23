@@ -2,10 +2,15 @@ package com.wangdesen.dp;
 
 import org.junit.Test;
 
-import com.wangdesen.dp.proxy.proxy.DBQueryHandler;
-import com.wangdesen.dp.proxy.proxy.DBQueryProxy;
-import com.wangdesen.dp.proxy.theme.IDBQuery;
+import com.wangdesen.dp.proxy.DBQueryHandler;
+import com.wangdesen.dp.proxy.DBQueryProxy;
+import com.wangdesen.dp.proxy.IDBQuery;
 
+/**
+ * 代理模式测试类
+ * 
+ * @author wangdesen
+ * */
 public class ProxyTest {
 
 	//懒加载代理
