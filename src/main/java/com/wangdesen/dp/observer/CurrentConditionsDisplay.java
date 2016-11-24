@@ -1,6 +1,5 @@
-package com.wangdesen.dp.observer.observer;
+package com.wangdesen.dp.observer;
 
-import com.wangdesen.dp.observer.subject.Subject;
 
 
 /**

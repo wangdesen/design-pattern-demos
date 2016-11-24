@@ -1,4 +1,4 @@
-package com.wangdesen.dp.observer.observer;
+package com.wangdesen.dp.observer;
 
 /**
  * 布告板类，观察者展示使用--接口

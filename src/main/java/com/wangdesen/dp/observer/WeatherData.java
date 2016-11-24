@@ -1,8 +1,6 @@
-package com.wangdesen.dp.observer.subject;
+package com.wangdesen.dp.observer;
 
 import java.util.ArrayList;
-
-import com.wangdesen.dp.observer.observer.Observer;
 
 /**
  * 气象数据--主题实体

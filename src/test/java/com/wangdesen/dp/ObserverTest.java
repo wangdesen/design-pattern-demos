@@ -1,7 +1,7 @@
 package com.wangdesen.dp;
 
-import com.wangdesen.dp.observer.observer.CurrentConditionsDisplay;
-import com.wangdesen.dp.observer.subject.WeatherData;
+import com.wangdesen.dp.observer.CurrentConditionsDisplay;
+import com.wangdesen.dp.observer.WeatherData;
 
 
 /**

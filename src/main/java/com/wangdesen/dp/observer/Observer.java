@@ -1,4 +1,4 @@
-package com.wangdesen.dp.observer.observer;
+package com.wangdesen.dp.observer;
 
 /**
  * 定义观察者类--接口
