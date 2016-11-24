@@ -4,7 +4,7 @@ package com.wangdesen.dp.bridge;
  * Implementor
  * 实现类接口
  * 
- * 汽车引擎型号
+ * 引擎型号可以独立变化
  * 
  * @author wangdesen
  * */
