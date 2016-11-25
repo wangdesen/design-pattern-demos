@@ -3,17 +3,21 @@ package com.wangdesen.dp.observer;
 import java.util.ArrayList;
 
 /**
- * 气象数据--主题实体
+ * ConcreteSubject(气象数据)
  * 
  * @author wangdesen
  * */
 public class WeatherData implements Subject {
 	
+	//观察者列表
 	private ArrayList<Object> observers;
+	
+	//天气数据
 	private float temperature;
 	private float humidity;
 	private float pressure;
 	
+	//初始化观察者列表
 	public WeatherData(){
 		observers = new ArrayList<Object>();
 	}
@@ -40,12 +44,21 @@ public class WeatherData implements Subject {
 
 	}
 	
-	//气象数据发生改变触发事件
+	/**
+	 * 气象数据发生改变触发事件
+	 */
 	public void measurementsChanged(){
+		//通知观察者
 		notifyObserver();
 	}
 	
-	//设置气象数据
+	/**
+	 * 设置气象数据
+	 * 
+	 * @param temperature
+	 * @param humidity
+	 * @param pressure
+	 */
 	public void setMeasurements(float temperature, float humidity, float pressure){
 		this.temperature = temperature;
 		this.humidity = humidity;

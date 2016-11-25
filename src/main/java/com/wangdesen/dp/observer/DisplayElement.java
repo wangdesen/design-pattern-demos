@@ -7,6 +7,8 @@ package com.wangdesen.dp.observer;
  * */
 public interface DisplayElement {
 
-	//显示信息
+	/**
+	 * 信息展示方法
+	 * */
 	public void display();
 }
