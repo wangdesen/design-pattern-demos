@@ -1,15 +1,13 @@
-package com.wangdesen.dp.state.state;
+package com.wangdesen.dp.state;
 
 import java.util.Random;
 
-import com.wangdesen.dp.state.service.GumballMachine;
-
 /**
- * 有硬币状态
+ * ConcreteState(有硬币状态)
  * 
  * @author wangdesen
  * 
- * 2016年6月17日修改：加入大赢家模式
+ * @modify 2016年6月17日：加入大赢家模式
  * */
 public class HasQuarterState implements State {
 

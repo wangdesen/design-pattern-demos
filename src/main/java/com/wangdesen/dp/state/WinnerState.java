@@ -1,6 +1,5 @@
-package com.wangdesen.dp.state.state;
+package com.wangdesen.dp.state;
 
-import com.wangdesen.dp.state.service.GumballMachine;
 
 /**
  * 大赢家模式

@@ -1,6 +1,6 @@
 package com.wangdesen.dp;
 
-import com.wangdesen.dp.state.service.GumballMachine;
+import com.wangdesen.dp.state.GumballMachine;
 
 /**
  * 糖果机测试
