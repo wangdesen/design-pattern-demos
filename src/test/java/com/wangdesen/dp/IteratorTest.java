@@ -1,8 +1,8 @@
 package com.wangdesen.dp;
 
-import com.wangdesen.dp.iterator.dinermergeri.DinerMenu;
-import com.wangdesen.dp.iterator.dinermergeri.PancakeHouseMenu;
-import com.wangdesen.dp.iterator.dinermergeri.Waitress;
+import com.wangdesen.dp.iterator.DinerMenu;
+import com.wangdesen.dp.iterator.PancakeHouseMenu;
+import com.wangdesen.dp.iterator.Waitress;
 
 /**
  * 迭代器模式测试类

@@ -1,4 +1,4 @@
-package com.wangdesen.dp.iterator.dinermergeri;
+package com.wangdesen.dp.iterator;
 
 import java.util.Iterator;
 import java.util.Calendar;
