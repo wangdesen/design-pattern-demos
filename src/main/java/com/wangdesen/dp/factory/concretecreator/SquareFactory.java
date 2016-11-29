@@ -12,8 +12,7 @@ import com.wangdesen.dp.factory.product.Shape;
  * @更新时间：2015年12月10日14:58:46
  * */
 public class SquareFactory extends ShapeFactory {
-
-	//重载factoryMethod方法，返回Square对象
+	
 	@Override
 	protected Shape factoryMethod(String aName) {
 		return new Square(aName + "(created by SquareFactory)");

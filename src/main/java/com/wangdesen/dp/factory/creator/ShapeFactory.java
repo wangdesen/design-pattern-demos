@@ -11,9 +11,18 @@ import com.wangdesen.dp.factory.product.Shape;
  * */
 public abstract class ShapeFactory {
 
+	/**
+	 * 构造一个抽象形状
+	 * @param aName
+	 * @return
+	 */
 	protected abstract Shape factoryMethod(String aName);
 	
-	//在anOperation中定义Shape的一系列行为
+	/**
+	 * Shape工厂开工
+	 * 
+	 * @param aName
+	 */
 	public void anOperation(String aName){
 		Shape s= factoryMethod(aName);
 		System.out.println("The current shape is: " + s.name);

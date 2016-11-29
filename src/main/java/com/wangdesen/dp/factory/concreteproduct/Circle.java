@@ -6,7 +6,6 @@ import com.wangdesen.dp.factory.product.Shape;
  * 圆形子类
  * 
  * @author wangdesen
- * @version 1.0
  * */
 public class Circle extends Shape {
 

@@ -8,15 +8,29 @@ package com.wangdesen.dp.factory.product;
  * */
 public abstract class Shape {
 	
-	//勾画shape
-	public abstract void draw();
-	
-	//擦出shape
-	public abstract void erase();
-	
+	/**
+	 * 名称
+	 */
 	public String name;
 
+	/**
+	 * 有参构造方法
+	 * 
+	 * @param aName
+	 */
 	public Shape(String aName) {
 		name = aName;
 	}
+	
+	/**
+	 * 勾画shape
+	 */
+	public abstract void draw();
+	
+	/**
+	 * 擦除shape
+	 */
+	public abstract void erase();
+	
+	
 }
