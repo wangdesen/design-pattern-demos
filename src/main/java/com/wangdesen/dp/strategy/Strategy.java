@@ -1,4 +1,4 @@
-package com.wangdesen.dp.strategy.strategy;
+package com.wangdesen.dp.strategy;
 
 /**
  * 策略接口
@@ -7,7 +7,9 @@ package com.wangdesen.dp.strategy.strategy;
  * */
 public interface Strategy {
 	
-	//操作方法
+	/**
+	 * 操作方法
+	 */
 	public void operate();
 
 }

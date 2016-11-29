@@ -1,6 +1,5 @@
-package com.wangdesen.dp.strategy.context;
+package com.wangdesen.dp.strategy;
 
-import com.wangdesen.dp.strategy.strategy.Strategy;
 
 /**
  * 环境类
@@ -9,6 +8,9 @@ import com.wangdesen.dp.strategy.strategy.Strategy;
  * */
 public class Context {
 
+	/**
+	 * 策略
+	 */
 	private Strategy strategy;
 
 	public Context(Strategy strategy) {
@@ -19,6 +21,9 @@ public class Context {
 		this.strategy = strategy;
 	}
 	
+	/**
+	 * 操作----执行当前策略的操作方法
+	 */
 	public void operate(){
 		this.strategy.operate();
 	}

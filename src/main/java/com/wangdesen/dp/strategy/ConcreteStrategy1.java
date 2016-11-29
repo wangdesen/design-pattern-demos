@@ -1,4 +1,4 @@
-package com.wangdesen.dp.strategy.strategy;
+package com.wangdesen.dp.strategy;
 
 /**
  * 实体策略1
