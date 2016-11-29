@@ -3,11 +3,11 @@ package com.wangdesen.dp.iterator;
 import java.util.Iterator;
 
 /**
- * 晚餐菜单迭代器
+ * 定义晚餐菜单迭代器
  * 
  * @author wangdesen
  * */
-public class DinerMenuIterator implements Iterator {
+public class DinerMenuIterator implements Iterator<Object> {
 	
 	/**
 	 * 菜单项列表

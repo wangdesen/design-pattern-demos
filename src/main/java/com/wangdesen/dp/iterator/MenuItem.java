@@ -6,6 +6,7 @@ package com.wangdesen.dp.iterator;
  * @author wangdesen
  * */
 public class MenuItem {
+	
 	/**
 	 * 名称
 	 */

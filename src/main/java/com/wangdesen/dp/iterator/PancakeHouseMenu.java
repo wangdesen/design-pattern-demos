@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 /**
- * 蛋糕房菜单
+ * 蛋糕房菜单[采用List存储菜单项]
+ * Ps:ArrayList自带迭代器
  * 
  * @author wangdesen
  * */
@@ -13,13 +14,13 @@ public class PancakeHouseMenu implements Menu {
 	/**
 	 * 菜单项列表
 	 */
-	ArrayList menuItems;
+	ArrayList<MenuItem> menuItems;
 
 	/**
 	 * 构造方法
 	 */
 	public PancakeHouseMenu() {
-		menuItems = new ArrayList();
+		menuItems = new ArrayList<MenuItem>();
 		addItem("K&B's Pancake Breakfast", "Pancakes with scrambled eggs, and toast", true, 2.99);
 		addItem("Regular Pancake Breakfast", "Pancakes with fried eggs, sausage", false, 2.99);
 		addItem("Blueberry Pancakes", "Pancakes made with fresh blueberries, and blueberry syrup", true, 3.49);
@@ -27,7 +28,7 @@ public class PancakeHouseMenu implements Menu {
 	}
 
 	/**
-	 * 增加菜单项
+	 * 增加菜单项[add方式]
 	 * 
 	 * @param name
 	 * @param description
@@ -45,14 +46,14 @@ public class PancakeHouseMenu implements Menu {
 	 * 
 	 * @return
 	 */
-	public ArrayList getMenuItems() {
+	public ArrayList<MenuItem> getMenuItems() {
 		return menuItems;
 	}
 
 	/**
 	 * 创造菜单项迭代器
 	 */
-	public Iterator createIterator() {
+	public Iterator<MenuItem> createIterator() {
 		return menuItems.iterator();
 	}
 

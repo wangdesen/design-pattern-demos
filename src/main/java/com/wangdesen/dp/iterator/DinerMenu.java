@@ -3,13 +3,25 @@ package com.wangdesen.dp.iterator;
 import java.util.Iterator;
 
 /**
- * 晚餐菜单
+ * 晚餐菜单[采用Array存储菜单项]
  * 
  * @author wangdesen
  * */
 public class DinerMenu implements Menu {
+	
+	/**
+	 * 限制最大菜单项数量
+	 */
 	static final int MAX_ITEMS = 6;
+	
+	/**
+	 * 菜单项数量
+	 */
 	int numberOfItems = 0;
+	
+	/**
+	 * 晚餐菜单使用Array
+	 */
 	MenuItem[] menuItems;
 
 	/**
@@ -26,7 +38,7 @@ public class DinerMenu implements Menu {
 	}
 
 	/**
-	 * 添加菜单项
+	 * 添加菜单项[下标方式]
 	 * 
 	 * @param name
 	 * @param description
@@ -55,7 +67,7 @@ public class DinerMenu implements Menu {
 	/**
 	 * 创建晚餐菜单迭代器
 	 */
-	public Iterator createIterator() {
+	public Iterator<?> createIterator() {
 		return new DinerMenuIterator(menuItems);
 		// return new AlternatingDinerMenuIterator(menuItems);
 	}

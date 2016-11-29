@@ -12,5 +12,5 @@ public interface Menu {
 	/**
 	 * 创建迭代器
 	 * */
-	public Iterator createIterator();
+	public Iterator<?> createIterator();
 }
