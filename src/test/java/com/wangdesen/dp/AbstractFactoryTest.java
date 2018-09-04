@@ -8,6 +8,7 @@ import com.wangdesen.dp.abstractFactory.MideaConcreteFactory;
 
 /**
  * 抽象工厂模式测试类
+ * 2018-09-04 导入
  * 
  * @author wangdesen
  */
